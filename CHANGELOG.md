@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.0.0 - Unreleased
+### Removed
+- `helmet.hpkp`. If you still need it, check out the `hpkp` package on npm.
+
 ## 3.18.0 - 2019-05-05
 ### Added
 - `featurePolicy` has 19 new features: `ambientLightSensor`, `documentDomain`, `documentWrite`, `encryptedMedia`, `fontDisplayLateSwap`, `layoutAnimations`, `legacyImageFormats`, `loadingFrameDefaultEager`, `oversizedImages`, `pictureInPicture`, `serial`, `syncScript`, `unoptimizedImages`, `unoptimizedLosslessImages`, `unoptimizedLossyImages`, `unsizedMedia`, `verticalScroll`, `wakeLock`, and `xr`
