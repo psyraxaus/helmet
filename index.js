@@ -1,5 +1,3 @@
-var deprecate = require('depd')('helmet')
-
 var DEFAULT_MIDDLEWARE = [
   'dnsPrefetchControl',
   'frameguard',
@@ -68,8 +66,6 @@ helmet.noSniff = require('dont-sniff-mimetype')
 helmet.permittedCrossDomainPolicies = require('helmet-crossdomain')
 helmet.referrerPolicy = require('referrer-policy')
 helmet.xssFilter = require('x-xss-protection')
-
-helmet.hpkp = deprecate.function(require('hpkp'), 'helmet.hpkp is deprecated and will be removed in helmet@4. You can use the `hpkp` module instead. For more, see https://github.com/helmetjs/helmet/issues/180.')
 
 middlewares = Object.keys(helmet)
 
